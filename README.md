@@ -20,7 +20,6 @@ cd {ШЛЯХ ДО ПАПКИ}
 наприклад
 
 cd documents/web_projects
-
 ````
 
 Скачай данний репозиторіум
@@ -35,20 +34,18 @@ git clone https://github.com/DanyloShyshkovskyi/mentoring.git
 
 ````
 git checkout -b init
-
 ````
 
 ## Add content
 
 Закинь свій останній проект з лисицьою і запуш його на данний репозиторій
 
-після додавання змін в консолі впиши
+після додавання змін, в консолі впиши
 
 ````
 git add .
 git commit -m "Init Project"
 git push origin init
-
 ````
 
 ### Мaє спрацювати, якщо що пиши

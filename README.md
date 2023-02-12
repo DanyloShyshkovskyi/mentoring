@@ -30,6 +30,12 @@ git clone https://github.com/DanyloShyshkovskyi/mentoring.git
 
 ## Create new branch
 
+Перейди до данного проекту
+
+````
+cd mentoring
+````
+
 Створи новий бранч на якому будеш дальше працювати
 
 ````

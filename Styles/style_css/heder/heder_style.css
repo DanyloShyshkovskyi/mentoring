@@ -1,12 +1,15 @@
 body {
   background-color: rgba(204, 204, 204, 0.8);
-  margin: 0px;
-  background-image: url(../../foto/Rectangle.png);
+}
+
+.fox-fon {
+  background-image: url(../../../Images/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 780px;
-  align-items: center;
+  min-height: 780px;
+  margin-bottom: 120px;
+  background-color: #0f4106;
 }
 
 .trans-1 {
@@ -20,7 +23,6 @@ body {
 .top-menu {
   color: white;
   display: flex;
-  margin-top: 25px;
 }
 .top-menu .menu-item-left {
   display: flex;
@@ -57,12 +59,12 @@ body {
 }
 
 .top-sait-inf {
-  display: flexbox;
-  flex-direction: column;
-  position: relative;
+  display: inline-block;
+}
+.top-sait-inf .tematik {
+  font-size: 48px;
 }
 .top-sait-inf .top-main-tematik {
-  font-size: 48px;
   color: #CD6326;
   position: relative;
   margin: 120px 0px 51px 120px;

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+.central-sait-inf__main-center-information {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.central-sait-inf__secondary-center-information {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+/* Слайдер */
+.slick-slider {
+  position: relative;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  min-width: 700px;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+  margin: 0 5%;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider {
+  /* Стрелка */
+  /* Стрелка влево */
+  /* Стрелка вправо */
+}
+.slider .slick-arrow {
+  justify-content: center;
+  position: absolute;
+  z-index: 20;
+  height: 40px;
+  font-size: 0;
+  width: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  justify-content: center;
+}
+.slider .slick-prev {
+  left: 0;
+  background: url(../../../Images/arrow_L.svg) 0 0 no-repeat;
+}
+.slider .slick-next {
+  right: 0;
+  background: url(../../../Images/arrow_R.svg) 0 0 no-repeat;
+}
+
+.slider-item {
+  position: relative;
+  color: white;
+}
+.slider-item__text-regular-ui {
+  position: absolute;
+  font-size: 22px;
+  z-index: 20;
+  overflow: hidden;
+  padding-bottom: 77px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider-item__text-regular-light {
+  position: absolute;
+  font-size: 17px;
+  z-index: 20;
+  overflow: hidden;
+  padding-bottom: 40px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input-group {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 240px;
+}
+.input-group__eml-stand {
+  width: 540px;
+  height: 60px;
+  border: solid #666666;
+  font-style: rgb(60, 59, 59);
+  padding-left: 20px;
+}
+.input-group__send-eml-btn {
+  background-color: #CD6326;
+  width: 120px;
+  height: 60px;
+  border-radius: 0 10px 10px 0;
+  color: white;
+}
+.input-group__send-eml-btn:hover {
+  border-radius: 10px;
+}
+
+.secondary-center-information {
+  font-size: 24px;
+  text-align: center;
+}
+.secondary-center-information__over-eml {
+  margin: 240px 0 60px 0;
+}/*# sourceMappingURL=center.css.map */

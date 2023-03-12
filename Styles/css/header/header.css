@@ -3,13 +3,18 @@ body {
 }
 
 .fox-fon {
-  background-image: url(../../../Images/Rectangle.png);
+  background-image: url(../../../Images/fox.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 780px;
   margin-bottom: 120px;
   background-color: #0f4106;
+}
+
+.container {
+  max-width: 1700px;
+  margin: auto;
 }
 
 .trans-1 {
@@ -23,6 +28,8 @@ body {
 .top-menu {
   color: white;
   display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 .top-menu .menu-item-left {
   display: flex;
@@ -58,9 +65,6 @@ body {
   background-color: rgba(227, 85, 2, 0.5333333333);
 }
 
-.top-sait-inf {
-  display: inline-block;
-}
 .top-sait-inf .tematik {
   font-size: 48px;
 }
@@ -85,4 +89,4 @@ body {
   margin-left: 120px;
   padding: 16px 42px;
   border-radius: 5px;
-}/*# sourceMappingURL=heder_style.css.map */
+}/*# sourceMappingURL=header.css.map */
